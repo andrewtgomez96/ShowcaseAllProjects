@@ -1,16 +1,24 @@
 {
-  "name": "nodefullscreenapp",
+  "name": "andrews_website",
   "version": "1.0.0",
-  "description": "this app is a template for full screen webpages",
+  "description": "Self created website for showcasing projects",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewtgomez96/ShowcaseAllProjects.git"
   },
   "author": "Andrew Gomez",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewtgomez96/ShowcaseAllProjects/issues"
+  },
+  "homepage": "https://github.com/andrewtgomez96/ShowcaseAllProjects#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "jade": "^1.11.0",
-    "pug": "^2.0.3"
+    "nodemon": "^1.18.4"
   }
 }
